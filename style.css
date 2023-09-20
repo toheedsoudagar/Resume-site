@@ -1,0 +1,198 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat:wght@500&family=Noto+Serif&family=Roboto+Mono:wght@700&family=Rubik&display=swap');
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(223, 219, 219);
+    font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik', sans-serif;
+}
+
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    align-items: center;
+    justify-content: center;
+  width: 60%;
+    display: flex;
+   margin: 20px 80px;  
+    box-shadow: 10px 10px 5px rgb(93, 91, 91);
+    background-color: white;
+    
+}
+
+.content{
+    width: fit-content;
+    margin: 15px 40px;
+}
+
+.line-4 {
+    margin: 10px;
+    height: 1px;
+    border: 0;
+    background: black;
+  }
+
+.row{
+    
+    padding-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+.row ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.row ul li a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.name h1{
+    font-family: 'Kanit', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+}
+ 
+.name img{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+
+.summ{
+    margin: 40px 20px;
+    font-size: 18px;
+    
+}
+
+
+
+h2{
+    margin-left: 20px;
+}
+
+.education{
+    width: fit-content;
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.education div{
+    padding: 1px 20px; 
+}
+
+
+
+.skill-wrapper {
+    font-size: 35px;
+    margin: 25px 40px;
+    
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.exp{
+    width: fit-content;
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.exp div{
+    padding: 1px 20px;
+}
+
+
+.project{
+    width: fit-content;
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project div{
+    
+    padding: 1px 20px;
+
+}
+
+.certi{
+
+    display:flex;
+    padding: 1px 20px;
+    flex-wrap: wrap;
+}
+
+/* Mobile view (up to 767px) */
+@media screen and (max-width: 767px) {
+    .name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+    }
+
+    .border{
+        width: 100%;
+        box-shadow:none ;
+
+    }
+
+    .content{
+        width: 100%;
+    }
+
+
+   
+  }
+  
+  /* Tablet view (768px to 1023px) */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Your CSS styles for tablet devices go here */
+  }
+  
+
